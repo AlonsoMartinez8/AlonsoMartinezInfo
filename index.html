@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alonso Martínez Info</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+    />
+  </head>
+  <body class="dev">
+    <nav>
+      <div class="nav-logo">
+        <a href="#">
+          <img src="img/logo.png" />
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li class="link">
+          <a href="#contacto">Contacto <i class="ri-contacts-fill"></i></a>
+        </li>
+        <li class="link">
+          <a class="link-inicio" href="#">Inicio <i class="ri-home-7-fill"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <span class="blur"></span>
+    <span class="blur"></span>
+
+    <section id="dev-section" class="container">
+      <div class="picker container">
+        <button class="btn btn-picker dev-btn-picker inactive" disabled>
+          Developer
+        </button>
+        <button class="btn btn-picker msc-btn-picker">Producer</button>
+      </div>
+      <div class="section-content">
+        <div class="content">
+          <h4>CONSIGUE TU PÁGINA WEB PERSONALIZADA</h4>
+          <h1>
+            Hola, soy <small>ALONSO</small>,
+            <span style="font-size: .8em;">Desarrollador Multi Plataforma</span>
+          </h1>
+          <p>
+            Desarrolla la Página Web de tu Negocio, tu Portfolio Personal o la
+            Aplicación Movil que necesitas.
+            <br />
+            Trabajo con multiples Entornos de desarrollo, Framworks y Lenguajes.
+          </p>
+          <a href="#" class="btn">Saber Más</a>
+        </div>
+        <div class="image">
+          <img src="img/character_Dev.png" />
+        </div>
+      </div>
+    </section>
+
+    <section id="msc-section" class="none">
+      <div class="picker container">
+        <button class="btn btn-picker dev-btn-picker">Developer</button>
+        <button class="btn btn-picker msc-btn-picker inactive" disabled>
+          Producer
+        </button>
+      </div>
+      <div class="section-content">
+        <div class="image">
+          <img src="img/character_Msc.png" />
+        </div>
+        <div class="content">
+          <h4>OBTÉN UNA PRODUCCIÓN PROFESIONAL PARA TU PROYECTO</h4>
+          <h1>
+            Hola, soy <small>ALONSO</small>,
+            <span>Productor Musical & Beatmaker</span>
+          </h1>
+          <p>
+            Contacta con nuestro equipo para consiguir sesiones de Grabación,
+            Mezcla, Master o Beats Personalizados.
+            <br />
+            <a href="#">
+              <i class="ri-instagram-line"></i>
+              <small>lanave457</small>
+              <i class="ri-rocket-line"></i>
+            </a>
+          </p>
+          <a href="#" class="btn">Saber Más</a>
+        </div>
+      </div>
+    </section>
+
+    <div id="contacto" class="container">
+      <h1>Contacto</h1>
+      <div class="socials">
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-github-fill"></i></a>
+        <a href="#"><i class="ri-mail-fill"></i></i></a>
+        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+      </div>
+      <div id="emailJS">
+        <form>
+          <h2>Envíame tu Correo!</h2>
+          <label for="mail">Tu correo electrónico</label>
+          <input type="email" autocomplete="off" name="mail" id="mail" placeholder="tuCorreoElectronico@mail.com" />
+          <label for="asunto">Asunto</label>
+          <input type="text" autocomplete="off" name="asunto" id="asunto" placeholder="Tu asunto" />
+          <label for="mensaje">Mensaje</label>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+          <input type="submit" class="btn" name="enviar" value="Enviar" disabled  />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>alonsomartinez.info</p>
+    </footer>
+    <script src="js/section-pickers.js"></script>
+  </body>
+</html>
